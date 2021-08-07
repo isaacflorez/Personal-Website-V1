@@ -24,6 +24,19 @@ html {
 	scroll-behavior: smooth;
 }
 
+.arrow-down {
+	display: flex;
+	justify-content: center;
+	color: white;
+	margin-top: 40vh;
+	text-align: center;
+	padding: 0 auto;
+}
+
+.arrow-down a {
+	font-size: 3rem;
+}
+
 /*Header Styles*/
 button, li, a {
 	font-size: 20px;
@@ -84,7 +97,7 @@ button:hover {
 	height: 100vh;
 	width: 100%;
 	line-height: 1.25;
-	padding: 30vh 8rem;
+	padding: 15vh 8rem 30vh;
 	background-color: var(--dark)
 }
 
