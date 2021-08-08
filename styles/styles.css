@@ -24,13 +24,19 @@ html {
 	scroll-behavior: smooth;
 }
 
+.first-arrow-down {
+	margin: auto auto 100px;
+	padding: 5px
+}
+
 .arrow-down {
-	display: flex;
-	justify-content: center;
-	color: white;
-	margin-top: 40vh;
-	text-align: center;
-	padding: 0 auto;
+	margin: auto auto 20px;
+	padding: 5px
+}
+
+.arrow-up {
+	margin: 20px auto auto;
+	padding: 5px;
 }
 
 .arrow-down a {
@@ -49,13 +55,15 @@ header {
 	display: flex;
 	justify-content: space-between; /*pushes items to far sides of page*/
 	align-items: center;
-	padding: 10px 5%;
+	padding: 1rem;
 	background-color: var(--dark)
 }
 
 .nav-links {
 	list-style: none;
 }
+
+
 
 .nav-links li {
 	display: inline-block;	/*align elements as blocks side by side*/
@@ -94,11 +102,15 @@ button:hover {
 
 /*Home Section*/
 .intro-section {
+	display: flex;
+	flex-flow: column;
 	height: 100vh;
-	width: 100%;
-	line-height: 1.25;
-	padding: 15vh 8rem 30vh;
 	background-color: var(--dark)
+}
+
+.intro-content {
+	margin-top: auto;
+	padding: 0 8rem;
 }
 
 .big-name {
@@ -120,11 +132,17 @@ p {
 
 /*About Section*/
 .about-section {
+	display: flex;
+	flex-flow: column;
 	height: 100vh;
-	width: 100%;
-	padding: 15vh 8rem 30vh;
 	background-color: var(--dark);
 }
+
+.about-content {
+	padding: 15vh 8rem;
+}
+
+
 
 .sec-title {
 	color: var(--blue);
