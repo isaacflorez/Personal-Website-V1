@@ -63,8 +63,6 @@ header {
 	list-style: none;
 }
 
-
-
 .nav-links li {
 	display: inline-block;	/*align elements as blocks side by side*/
 	padding: 0 15px;
@@ -142,8 +140,6 @@ p {
 	padding: 15vh 8rem;
 }
 
-
-
 .sec-title {
 	color: var(--blue);
 	font-size: 3rem;
@@ -185,7 +181,6 @@ p {
 	width: 12rem;
 	background-color: whitesmoke;
 	text-align: center;
-	/*line-height: 12rem;*/
 	border-radius: 2rem;
 }
 
@@ -210,15 +205,10 @@ p {
 
 /*Contact Section*/
 .contact-section {
-
 	display: block;
 	height: 100vh;
 	padding: 15vh 8rem 30vh;
 	background-color: var(--dark);
-}
-
-.contact-section h2 {
-	
 }
 
 /*Footer*/
@@ -230,16 +220,14 @@ footer {
 }
 
 
-
+/*Responsive*/
 @media screen and (max-width: 1087px){
-
 	.projects-section {
 		height: 130vh;
 	}
 }
 
 @media screen and (max-width: 831px){
-
 	.projects-section {
 		height: 185vh;
 	}
@@ -248,18 +236,3 @@ footer {
 		margin: 0 2rem 3rem;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
