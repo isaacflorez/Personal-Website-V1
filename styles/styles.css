@@ -24,6 +24,7 @@ html {
 	scroll-behavior: smooth;
 }
 
+
 .first-arrow-down {
 	margin: auto auto 100px;
 	padding: 5px
@@ -102,7 +103,7 @@ button:hover {
 .intro-section {
 	display: flex;
 	flex-flow: column;
-	height: 100vh;
+	min-height: 100vh;
 	background-color: var(--dark)
 }
 
@@ -132,7 +133,7 @@ p {
 .about-section {
 	display: flex;
 	flex-flow: column;
-	height: 100vh;
+	min-height: 100vh;
 	background-color: var(--dark);
 }
 
@@ -150,7 +151,7 @@ p {
 
 /*Project Section*/
 .projects-section {
-	height: 100vh;
+	min-height: 100vh;
 	width: 100%;
 	padding: 15vh 8rem 30vh;
 	background-color: var(--dark);
@@ -206,7 +207,7 @@ p {
 /*Contact Section*/
 .contact-section {
 	display: block;
-	height: 100vh;
+	min-height: 100vh;
 	padding: 15vh 8rem 30vh;
 	background-color: var(--dark);
 }
@@ -221,16 +222,16 @@ footer {
 
 
 /*Responsive*/
-@media screen and (max-width: 1087px){
+/*@media screen and (max-width: 1087px){
 	.projects-section {
 		height: 130vh;
 	}
-}
+}*/
 
 @media screen and (max-width: 831px){
-	.projects-section {
+/*	.projects-section {
 		height: 185vh;
-	}
+	}*/
 
 	.single-proj {
 		margin: 0 2rem 3rem;
