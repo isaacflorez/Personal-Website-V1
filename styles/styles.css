@@ -207,7 +207,7 @@ p {
 /*Contact Section*/
 .contact-section {
 	display: block;
-	min-height: 100vh;
+	min-height: 50vh;
 	padding: 15vh 8rem 30vh;
 	background-color: var(--dark);
 }
